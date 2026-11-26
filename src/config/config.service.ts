@@ -30,5 +30,8 @@ export const env = {
 
   // enc 32char
   ENCRYPTION_SECRET_KEY: process.env.ENCRYPTION_SECRET_KEY as string,
+  
+  // white list
+  WHITE_LIST: process.env.WHITE_LIST as string,
 };
 export type Env = typeof env;
